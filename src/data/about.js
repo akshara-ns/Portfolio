@@ -6,7 +6,7 @@
 export const personal = {
   name: 'Akshara Nadayanur Sathis Kanna',
   role: "Master's in ECE · ML & AI",
-  tagline: 'Building human-centered AI at the intersection of machine learning and cross-cultural perspective.',
+  tagline: 'Building trustworthy, human-centered AI for real-world use.',
   email: 'ns.akshara533@gmail.com',
   github: 'https://github.com/akshara-ns',
   linkedin: 'https://www.linkedin.com/in/akshara-nadayanur-sathis-kanna',
@@ -14,10 +14,25 @@ export const personal = {
 }
 
 export const about = {
+  aboutCard: {
+    headlineJa: 'ことばと文化のあわいをつなぐ。',
+    // logo paths are under /public; Vite base is applied in About.jsx
+    backgroundTags: [
+      { label: '🇮🇳 Born in India' },
+      { label: '🇯🇵 Raised in Japan' },
+      { label: 'B.E. at SIT', logo: 'logos/sit.png', logoVariant: 'emblemOnly' },
+      { label: 'M.S. at CMU', logo: 'logos/cmu-mark.svg' },
+    ],
+    affiliations: [
+      { label: 'Mobile Multimedia Communications Laboratory', logo: 'logos/sit.png', logoVariant: 'emblemOnly' },
+      { label: 'Learning & Control Group', logo: 'logos/cmu-mark.svg' },
+      { label: 'Japan Venture Academy', logo: 'logos/jva.png' },
+    ],
+  },
   bio: [
-    "I'm a Master's student in Electrical and Computer Engineering at Carnegie Mellon University, with a focus on machine learning, deep learning, and human-AI interaction. I completed my B.E. in Computer Engineering at Shibaura Institute of Technology in Tokyo, where I received the Presidential Award of Excellence.",
-    "My journey spans three cultures — Indian roots, raised in Japan, now studying in the US — which has shaped how I approach technology: with empathy, clarity, and a commitment to building systems that serve people.",
-    "I'm drawn to problems at the human-AI intersection: trustworthy AI, interpretable systems, assistive technology, and tools that make a real difference for the people who rely on them.",
+    "I'm Akshara, a Master's student in Electrical and Computer Engineering at Carnegie Mellon University, where I focus on machine learning, agentic AI, and human-AI interaction. Before CMU, I studied Computer Engineering at Shibaura Institute of Technology in Tokyo.",
+    "Growing up in Japan shaped a lot of how I see technology. I was surrounded by systems designed to quietly support everyday life, which made me pay attention to how technology can be made accessible and thoughtfully integrated into the way people live. Studying and building in the US has only strengthened that perspective.",
+    "What draws me most is building technology that is personalized, grounded in real human needs, and designed to support people in practical everyday contexts. I'm especially interested in how AI agents and intelligent systems can move beyond novelty and become tools that are genuinely trustworthy and supportive in people's lives.",
   ],
   beyondWork: [
     {

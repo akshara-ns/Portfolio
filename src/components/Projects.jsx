@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { projects } from '../data/projects'
 
-const filters = ['all', 'personal', 'course', 'research']
+const filters = ['all', 'research', 'academic', 'independent']
 
 const typeColors = {
-  personal: 'bg-lavender/20 text-lavender-dark',
-  course:   'bg-sky/20 text-sky-700',
-  research: 'bg-lavender-dark/10 text-navy/60',
+  research:    'bg-lavender-dark/10 text-lavender-deeper',
+  academic:    'bg-sky/20 text-sky-700',
+  independent: 'bg-lavender/20 text-lavender-dark',
 }
 
 export default function Projects() {
@@ -52,9 +52,12 @@ export default function Projects() {
               <span className="text-xs text-navy/30">{project.year}</span>
             </div>
 
-            <h3 className="font-medium text-navy mb-2 group-hover:text-lavender-dark transition-colors">
+            <h3 className="font-medium text-navy mb-0.5 group-hover:text-lavender-dark transition-colors">
               {project.title}
             </h3>
+            {project.subtitle && (
+              <p className="text-xs text-lavender-deeper mb-2">{project.subtitle}</p>
+            )}
             <p className="text-sm text-navy/60 leading-relaxed mb-4 flex-1">
               {project.description}
             </p>
