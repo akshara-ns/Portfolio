@@ -7,6 +7,43 @@
 // Ordered past to present so "My journey" reads as story: where you started → where you are now.
 export const timeline = [
   {
+    id: 10,
+    type: 'work',
+    title: 'Research Communication Mentor · MMC Lab',
+    organization: 'Shibaura Institute of Technology',
+    location: 'Tokyo, Japan',
+    period: 'Sep 2021 – Aug 2024',
+    bullets: [
+      'Mentored ~12 senior undergrads per year in a research lab, supporting literature search and paper comprehension across multiple research topics.',
+      'Reviewed conference slides and talks to improve technical storytelling and logical flow.',
+      'Collaborated with students and advisors to iterate research narratives, strengthening writing clarity and presentation readiness for academic settings.',
+    ],
+  },
+  {
+    id: 9,
+    type: 'work',
+    title: 'Students Association · SNS Team',
+    organization: 'Shibaura Institute of Technology',
+    location: 'Tokyo, Japan',
+    period: 'Sep 2021 – Aug 2024',
+    bullets: [
+      'Supported exchange students and promoted interaction between Japanese and International students by planning and organizing events as part of the Global Learning Commons, the International division of SIT.',
+      'Managed promotion of events and created engaging content across social media platforms as part of the SNS team.',
+    ],
+  },
+  {
+    id: 8,
+    type: 'work',
+    title: 'Teaching Assistant · Calculus',
+    organization: 'Shibaura Institute of Technology',
+    location: 'Tokyo, Japan',
+    period: 'Oct 2021 – Jan 2022',
+    bullets: [
+      'Provided tutoring on core calculus topics including continuity, derivatives, and integration.',
+      'Helped students apply concepts to problem-solving like optimization and curve sketching, and supported mastery of advanced integration techniques.',
+    ],
+  },
+  {
     id: 5,
     type: 'work',
     title: 'Teaching Assistant · International IoT-Robotics Workshop',
